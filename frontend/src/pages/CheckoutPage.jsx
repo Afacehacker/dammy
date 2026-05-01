@@ -69,6 +69,8 @@ const CheckoutPage = () => {
       alert(`Error: ${message}`);
     }
   };
+
+  return (
     <div className="container mx-auto px-4 py-10 min-h-screen">
       <h1 className="text-3xl font-bold dark:text-white mb-8 font-display text-center">Secure Checkout</h1>
 
