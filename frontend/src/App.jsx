@@ -19,9 +19,11 @@ import ContactPage from './pages/ContactPage';
 import AboutPage from './pages/AboutPage';
 import MyOrdersPage from './pages/MyOrdersPage';
 
+import FloatingWhatsApp from './components/FloatingWhatsApp';
+
 function App() {
   return (
-    <div className="flex flex-col min-h-screen bg-light dark:bg-darker transition-colors duration-300">
+    <div className="flex flex-col min-h-screen bg-light dark:bg-darker transition-colors duration-300 relative">
       <Navbar />
       <main className="flex-grow pt-20">
         <Routes>
@@ -44,6 +46,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
+      <FloatingWhatsApp />
       <ToastContainer position="bottom-right" theme="colored" />
     </div>
   );

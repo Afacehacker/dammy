@@ -57,15 +57,15 @@ const Footer = () => {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start space-x-3">
                 <FiMapPin className="text-primary-500 mt-1 flex-shrink-0" />
-                <span>123 Fashion Avenue, Lagos, Nigeria</span>
+                <span>SY8 along school road Oye-Ekiti</span>
               </li>
               <li className="flex items-center space-x-3">
                 <FiPhone className="text-primary-500 flex-shrink-0" />
-                <span>+234 800 000 0000</span>
+                <span>09133358775, 09114107327</span>
               </li>
               <li className="flex items-center space-x-3">
                 <FiMail className="text-primary-500 flex-shrink-0" />
-                <span>support@dammysessentials.com</span>
+                <span>joydammy21@gmail.com</span>
               </li>
             </ul>
           </div>

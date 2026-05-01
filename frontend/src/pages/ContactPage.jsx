@@ -32,7 +32,7 @@ const ContactPage = () => {
             </div>
             <div>
               <h3 className="text-xl font-bold dark:text-white mb-1">Our Location</h3>
-              <p className="text-gray-600 dark:text-gray-300">123 Fashion Avenue,<br />Lagos, Nigeria</p>
+              <p className="text-gray-600 dark:text-gray-300">SY8 along school road Oye-Ekiti</p>
             </div>
           </div>
           <div className="flex items-start space-x-4">
@@ -41,7 +41,7 @@ const ContactPage = () => {
             </div>
             <div>
               <h3 className="text-xl font-bold dark:text-white mb-1">Phone Number</h3>
-              <p className="text-gray-600 dark:text-gray-300">+234 800 000 0000</p>
+              <p className="text-gray-600 dark:text-gray-300">09133358775<br />09114107327</p>
             </div>
           </div>
           <div className="flex items-start space-x-4">
@@ -50,7 +50,7 @@ const ContactPage = () => {
             </div>
             <div>
               <h3 className="text-xl font-bold dark:text-white mb-1">Email</h3>
-              <p className="text-gray-600 dark:text-gray-300">support@dammysessentials.com</p>
+              <p className="text-gray-600 dark:text-gray-300">joydammy21@gmail.com</p>
             </div>
           </div>
         </div>
