@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api', // Backend port is 5000 based on server.js
+  baseURL: import.meta.env.VITE_API_URL || 'https://dammys-essentials-api.onrender.com/api',
 });
 
 // Add a request interceptor to inject the auth token
