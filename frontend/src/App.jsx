@@ -14,6 +14,11 @@ import RegisterPage from './pages/RegisterPage';
 import AdminDashboard from './pages/admin/AdminDashboard';
 import NotFound from './pages/NotFound';
 
+import ProfilePage from './pages/ProfilePage';
+import ContactPage from './pages/ContactPage';
+import AboutPage from './pages/AboutPage';
+import MyOrdersPage from './pages/MyOrdersPage';
+
 function App() {
   return (
     <div className="flex flex-col min-h-screen bg-light dark:bg-darker transition-colors duration-300">
@@ -27,6 +32,10 @@ function App() {
           <Route path="/checkout" element={<CheckoutPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
+          <Route path="/profile" element={<ProfilePage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/orders" element={<MyOrdersPage />} />
           
           {/* Admin Routes */}
           <Route path="/admin/*" element={<AdminDashboard />} />
